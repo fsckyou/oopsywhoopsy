@@ -1,4 +1,4 @@
 FROM docker
 RUN apk add git
-RUN docker pull fsckyou/oopsywhoopsy
-CMD ['docker', 'run', 'fsckyou/oopsywhoopsy']
+RUN docker pull fsckyou2/oopsywhoopsy
+CMD ['docker', 'run', 'fsckyou2/oopsywhoopsy']
